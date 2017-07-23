@@ -21,7 +21,7 @@ var sourcesPath = "src/js/";
 
 function checkLoad() {
     loadedFiles++;
-    if(requieredFiles.length == loadedFiles) {
+    if(requieredFiles.length === loadedFiles) {
         if(onComplete){
             onComplete();
         }

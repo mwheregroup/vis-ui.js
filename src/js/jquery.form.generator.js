@@ -688,7 +688,7 @@
                 });
             }
 
-            if(typeof item == "object") {
+            if(typeof item === "object") {
                 addEvents(element, item);
             }
 

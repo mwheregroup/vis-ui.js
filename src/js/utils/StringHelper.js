@@ -68,7 +68,7 @@ window.StringHelper = new function() {
             keyLength = keys.length;
             for (z = 0; z < keyLength; z++) {
                 key = keys[z];
-                if(z == keyLength - 1) {
+                if(z === keyLength - 1) {
                     subResult[key] = value;
                 } else if(!subResult.hasOwnProperty(key)) {
                     subResult[key] = {};
